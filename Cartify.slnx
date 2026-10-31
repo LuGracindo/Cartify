@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/Cartify.Contracts/Cartify.Contracts.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Orders/">
+    <Project Path="src/Services/Orders/Cartify.Orders.Api/Cartify.Orders.Api.csproj" />
+    <Project Path="src/Services/Orders/Cartify.Orders.Application/Cartify.Orders.Application.csproj" />
+    <Project Path="src/Services/Orders/Cartify.Orders.Domain/Cartify.Orders.Domain.csproj" />
+    <Project Path="src/Services/Orders/Cartify.Orders.Infrastructure/Cartify.Orders.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Cartify.Orders.Domain.Tests/Cartify.Orders.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
